@@ -1,12 +1,12 @@
 # Kolmogo's pinboard
 
-Source code for a personal website, hosted on [GitHub Pages](https://pages.github.com/) and built using [Jekyll](https://jekyllrb.com/) using the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) theme.
+Source code for a personal website, hosted on [GitHub Pages](https://pages.github.com/) and built using [Jekyll](https://jekyllrb.com/) with some simple HTML/CSS.
 
 **Website link:** https://kolmogo.github.io/
 
 ## About
 
-Just a personal space I organized for fun to practise some GitHub and also to document my academic projects and writings, primarily in topics I dabble with, mainly in statistical theory, actuarial statistics, applied statistics and probability, mathematics, information theory, etc. and also programming pedagogy and (hopefully) a bunch of Python lore.
+Just a personal space I organized for fun to practise some GitHub and also to document my academic projects and writings, primarily in topics I dabble with, mainly in statistical theory, actuarial statistics, applied statistics and probability, mathematics, information theory, etc. and also programming pedagogy and (hopefully) a bunch of Python lore. Also get to learn some web dev on the side for no reason!
 
 ## Local dev
 
@@ -22,7 +22,6 @@ bundle exec jekyll serve
 ## Tools used
 
 - **Jekyll** — Static site generator
-- **Chirpy** — Website theme
 - **GitHub Pages** — Hosting
 - **GitHub Actions** — Automated deployment
 - **Markdown** — Content authoring
