@@ -1,4 +1,75 @@
 ---
-layout: home
-# Index page
+layout: default
+title: Home
 ---
+
+<section id="about">
+  <h2>About me</h2>
+
+  <p>
+    Hi! I'm Vaibhav, a sophomore at the National University
+    of Singapore, primarily studying statistics.
+  </p>
+
+  <p>
+    Other than statistical theory or applied math in general, some of my career interests lie in the multidisciplinary approach of statistical methodology in many fields of research. It is imperative to understand the standing of a formal education in statistics as is necessitated in these fields -- it goes far beyond data literacy (that NUS covers gracefully for every single student in 
+    <a href="https://nusmods.com/courses/GEA1000/quantitative-reasoning-with-data">
+      GEA1000</a>) and being able to read numbers. 
+
+  </p>
+
+  <p>
+    I love the thrill of fearlessly attempting out things outside my comfort zone. Aside from an expository research internship stint I did a few years ago in simple differential geometry and the theory of curves and invariants (which I
+    will upload a long post about here, later),
+    I've also had the opportunity to pursue my interest
+    in teaching as a teaching assistant for
+    <a href="https://nusmods.com/courses/CS1010S/programming-methodology">
+      CS1010S (Programming Methodology)</a>
+    at the NUS School of Computing. The course introduces
+    students to programming methods, abstraction, and
+    computational problem-solving.
+  </p>
+</section>
+
+<hr>
+
+<section id="interests">
+  <h2>Interests</h2>
+
+  <ul>
+    <li>Statistical theory and methodology</li>
+    <li>Probability and stochastic processes</li>
+    <li>Applied mathematics</li>
+    <li>Algorithms and programming</li>
+    <li>Teaching and mathematical exposition</li>
+  </ul>
+</section>
+
+<hr>
+
+<section id="writing">
+  <h2>Writing</h2>
+
+  <ul>
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+      <span class="post-date">
+        — {{ post.date | date: "%d %B %Y" }}
+      </span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<hr>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <p>
+    Some random programming projects which I will upload later.
+  </p>
+</section>
