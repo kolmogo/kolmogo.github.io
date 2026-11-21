@@ -4,6 +4,10 @@ Source code for a personal website, hosted on [GitHub Pages](https://pages.githu
 
 **Website link:** https://kolmogo.github.io/
 
+## About
+
+Just a personal space I organized for fun to practise some GitHub and also to document my academic projects and writings, primarily in topics I dabble with, mainly in statistical theory, actuarial statistics, applied statistics and probability, mathematics, information theory, etc. and also programming pedagogy and (hopefully) a bunch of Python lore.
+
 ## Local dev
 
 To run the website locally, clone the repository and install its dependencies:
@@ -15,20 +19,16 @@ bundle install
 bundle exec jekyll serve
 ```
 
-## About
-
-Just a personal space I organized for fun to practise some GitHub and also to document my academic projects and writings, primarily in topics I dabble with, mainly in statistical theory, actuarial statistics, applied statistics and probability, mathematics, information theory, etc. and also programming pedagogy and (hopefully) a bunch of Python lore.
-
 ## Tools used
 
 - **Jekyll** — Static site generator
 - **Chirpy** — Website theme
 - **GitHub Pages** — Hosting
-- **Markdown** — Content authoring
 - **GitHub Actions** — Automated deployment
+- **Markdown** — Content authoring
 
 ## License
 
-The website uses the open-source Chirpy theme. Refer to the theme's [license](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE) for its licensing terms.
+The website uses the open-source Chirpy theme. Refer to the theme's [LICENSE](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE) for the licensing terms.
 
 Unless otherwise specified, the original content published on this website remains the intellectual property of its respective author.
